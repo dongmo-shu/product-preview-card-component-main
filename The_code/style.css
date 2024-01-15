@@ -11,7 +11,7 @@
 /*this forces thhe elements in the body to be in the center of the page*/
 body{
     background-color: var(--cream);
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -26,11 +26,12 @@ body{
 }
 
 footer{
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .attribution{
-    font-size: 11px; text-align: center;
+    font-size: 0.75rem;
+    text-align: center;
 }
 .attribution a{
     color: hsl(228, 45%, 44%);
@@ -44,19 +45,19 @@ footer{
     .big-box{
         display: flex;
         background-color: var(--white);
-        width: 700px;
-        height: 550px;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
+        width: 43.75rem;
+        height: 34.375rem;
+        border-top-right-radius: 0.625rem;
+        border-bottom-right-radius: 0.625rem;
     }
     
     .image-area{
-        height: 550px;
+        height: 34.375rem;
     }
     
     .image-product-desktop{
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
+        border-top-left-radius: 0.625rem;
+        border-bottom-left-radius: 0.625rem;
         max-height: 100%;
     }
 
@@ -68,13 +69,13 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-inline: 40px;
+        padding-inline: 2.5rem;
     }
     
     .text-area-top{
         font-weight: 700;
         color: var(--dark_grayish_blue);
-        letter-spacing: 5px;
+        letter-spacing: 0.313rem;
         text-transform: uppercase;
     }
     
@@ -87,7 +88,7 @@ footer{
     }
     
     .text-area-middle h1{
-        padding-right: 50px;
+        padding-right: 3.125rem;
     }
     
     .text-area-bottom p, .text-area-top p{
@@ -95,9 +96,9 @@ footer{
     }
     
     .text-area-bottom p{
-        font-size: 14px;
-        padding-right: 20px;
-        line-height: 25px;
+        font-size: 0.875rem;
+        padding-right: 1.25rem;
+        line-height: 1.563rem;
         font-weight: 500;
         color: var(--dark_grayish_blue);
         margin: 0;
@@ -109,12 +110,12 @@ footer{
         justify-content: left;
         font-family: var(--secondary_font);
         color: var(--dark_cyan);
-        margin-bottom: 10px;
+        margin-bottom: 0.625rem;
     }
     
     .price-info p{
-        padding-left: 20px;
-        font-size: 14px;
+        padding-left: 1.25rem;
+        font-size: 0.875rem;
         text-decoration: line-through;
         color: var(--dark_grayish_blue);
     }
@@ -122,10 +123,10 @@ footer{
     .cart-button{
         background-color: var(--dark_cyan);
         color: white;
-        padding: 15px 70px;
-        font-size: 14px;
+        padding: 0.938rem 4.375rem;
+        font-size: 0.875rem;
         border: none;
-        border-radius: 8px;
+        border-radius: 0.5rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -133,7 +134,7 @@ footer{
     }
     
     .cart-button img{
-        padding-right: 5px;
+        padding-right: 0.313rem;
     }
 }
 
@@ -144,10 +145,10 @@ footer{
         display: flex;
         flex-direction: column;
         background-color: var(--white);
-        width: 335px;
-        height: 620px;
-        border-radius: 0px 0px 10px 10px;
-        margin-top: 20px;
+        width: 20.938rem;
+        height: 38.75rem;
+        border-radius: 0px 0px 0.625rem 0.625rem;
+        margin-top: 1.25rem;
     }
 
     .image-area{
@@ -161,7 +162,7 @@ footer{
 
 
     .image-product-mobile{
-        border-radius: 10px 10px 0px 0px;
+        border-radius: 0.625rem 0.625rem 0 0;
         max-width: 100%;
     }
     
@@ -169,14 +170,14 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-inline: 20px;
+        padding-inline: 1.25rem;
         
     }
 
     .text-area-top{
         font-weight: 700;
         color: var(--dark_grayish_blue);
-        letter-spacing: 5px;
+        letter-spacing: 0.313rem;
         text-transform: uppercase;
     }
         
@@ -188,13 +189,13 @@ footer{
     .text-area-top{
         font-weight: 700;
         color: var(--dark_grayish_blue);
-        letter-spacing: 5px;
+        letter-spacing: 0.313rem;
         text-transform: uppercase;
     }
     
     .text-area-top, .text-area-bottom{
         font-family: var(--primary_font);
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 
     .text-area-middle h1, .price-info h1{
@@ -202,15 +203,15 @@ footer{
     }
     
     .text-area-middle h1{
-       font-size: 30px;
-       font-weight: 700px;
+       font-size: 1.875rem;
+       font-weight: 43.75rem;
        padding: 0;
     }
     
     .text-area-bottom p{
-        font-size: 14px;
+        font-size: 0.875rem;
         padding-right: 0px;
-        line-height: 25px;
+        line-height: 1.563rem;
         font-weight: 500;
         color: var(--dark_grayish_blue);
         margin: 0;
@@ -226,8 +227,8 @@ footer{
     }
     
     .price-info p{
-        padding-left: 20px;
-        font-size: 14px;
+        padding-left: 1.25rem;
+        font-size: 0.875rem;
         text-decoration: line-through;
         color: var(--dark_grayish_blue);
     }
@@ -235,20 +236,20 @@ footer{
     .cart-button{
         background-color: var(--dark_cyan);
         color: white;
-        padding: 15px 50px;
-        font-size: 14px;
+        padding: 0.938rem 3.125rem;
+        font-size: 0.875rem;
         border: none;
-        border-radius: 8px;
+        border-radius: 0.5rem;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     
     .cart-button img{
-        padding-right: 5px;
+        padding-right: 0.313rem;
     }
 
     footer{
-        margin-top: 10px;
+        margin-top: 0.625rem;
     }
 }
